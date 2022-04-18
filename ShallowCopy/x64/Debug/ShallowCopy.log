@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Ninja\Desktop\ShallowCopy\main.cpp(37,2): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+  Shallow.cpp
+  Generating Code...
+  ShallowCopy.vcxproj -> C:\Users\Ninja\Desktop\ShallowCopy\x64\Debug\ShallowCopy.exe
