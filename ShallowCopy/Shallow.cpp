@@ -16,7 +16,7 @@ Shallow::Shallow(const Shallow& source, std::string dt_name) :ptr(source.ptr), n
 	std::cerr << "\nCopy constructor has been made\n";
 }
 
-//This is used each time we exit a scope it will free the memory so this causing dangling memory :
+//This is used each time we exit a scope it will free the memory so this causing dangling memory the second time it will be called :
 Shallow::~Shallow()
 {
 	delete ptr; //free storage.
